@@ -3,13 +3,12 @@
 A basic python script to interact with the api:
 
 ```
-
 import requests
 
 result = requests.post("https://investigator-api.herokuapp.com/api/phone_number/all", data={"username":"eric", "password":"likeIdtellyou"}).json()
 print(result[0])
 
-```python
+```
 
 API all methods:
 
